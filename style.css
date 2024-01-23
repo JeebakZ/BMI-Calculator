@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/spiderman-in-the-corner-hr6k8abdba0fbnv6.jpg'); /* Set the path to your light mode background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333; /* Default text color */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+div {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff4343;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff4343;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.dark-mode {
+    background-image: url('https://wallpapercrafter.com/desktop/145020-simple-background-Venom-creature-artwork.jpg'); /* Set the path to your dark mode background image */
+    color: #000000;
+}
+
+.dark-mode input {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    color: #fff;
+}
+
+.dark-mode button {
+    background: #ff4343;
+    color: #fff; /* Ensure button text is visible in dark mode */
+}
+
+.dark-mode #logo {
+    display: none; /* Hide light mode logo in dark mode */
+}
+
+.dark-mode #dark-logo {
+    display: block; /* Show dark mode logo in dark mode */
+    max-width: 100px;
+    height: auto;
+}

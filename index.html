@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <img id="logo" src="image-removebg-preview (3).png" alt="Logo" style="max-width: 100px; height: auto;">
+        <img id="dark-logo" src="image-removebg-preview (4).png" alt="Dark Mode Logo" style="max-width: 100px; height: auto; display: none;">
+
+        <h1>BMI Calculator</h1>
+        <div>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter height in cm">
+        </div>
+        <div>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter weight in kg">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+        </div>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <div id="result"></div>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
